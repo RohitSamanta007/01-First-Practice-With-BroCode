@@ -10,6 +10,10 @@ else:
     print("You must be 18+ for vote")
 
 
+# Shorthand if-else statement as the ternary operator or a conditional expression
+# Syntex : <value_if_True> if <condition> else <value_if_false>
+print("Eligible to vote" if age>=18 else "Not eligible to vote")
+
 # Match-case statement (switch) : an alternative of using many "elif" statements. Execute some code if  a value matches a "case"
 
 day = int(input("Enter the number for day : "))

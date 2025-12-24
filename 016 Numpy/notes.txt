@@ -1,0 +1,9 @@
+1. Create ".venv" file for local development : install new module like numpy for this direcory only 
+    code for windows : "python -m venv .venv" -> ".venv/Scripts/activate"(for git bash in windows) or ".venv\Scripts\activate" (for powershell) 
+    code for mac : "python3 -m venv .venv" -> "source .venv/bin/activate"
+
+2. install numpy : "pip install numpy"
+
+3. Create pythone notebook using the extension "ipynb"
+
+4. shortcut : shift + enter = new cell , esc + y = new code cell for execution, esc + m = new markdown cell
